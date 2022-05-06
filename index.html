@@ -1,22 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.staticaly.com/gh/hung1001/font-awesome-pro/4cac1a6/css/all.css">
     </head>
     <body>
 
 <style>
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-
 *{
-	background-color: #FFFFFF;
+	background-color: #FFF;
 	font-family: 'Roboto';
-}
-hr.solid {
-	border-top: 1px solid #FFFFFF;
+
 }
 h2{
 	font-weight: 700;
@@ -24,27 +19,27 @@ h2{
 	line height: 72px;
 	letter-spacing: -1px;
 }
+h3{
+	font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+}
 h4{
 	font-weight: 700;
 	font-size: 48px;
 	line height: 48px;
 	letter-spacing: -.08px;
 }
-h3{
-	font-size: 60px;
-    line-height: 60px;
-    font-weight: 700;
-}
-.Font1{
+.font1{
 	font-size: 18px;
 }
-.Font2{
+.font2{
 	font-size: 20px;
 }
-.Font3{
+.font3{
 	font-size: 16px;
 }
-.Font4{
+.font4{
 	font-size: 24px;
 }
 li{
@@ -53,7 +48,7 @@ li{
 li a{
     display: inline-block;
     padding-left: 15px;
-    color: #000000;
+    color: #000;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
@@ -69,35 +64,44 @@ button{
     border-radius: 50px;
     cursor: pointer;
 }
+
 button:hover{
 	color: #00D5FF;
 }
+
 /*PART 1*/
-.part1 .TitleButton{
+
+.p1 .TitleButton{
     background-color: #000;
 }
-.part1 .ArticleButton{
+
+.p1 .ArticleButton{
     background-color: #FC0E52;
 }
-.part1 img{
+
+.p1 img{
 	height: auto;
 	width: 100%;
 }
-.part1 .spacing{
+
+.p1 .spacing{
 	margin-top: 50px;
 }
-.part1 p{
+
+.p1 p{
 	margin-top: 150px;
 }
-.part1 .spacing{
+
+.p1 .spacing{
 margin-top: 10px;
 }
-.part1 p{
+
+.p1 p{
 margin-top: 0px;
 }
 
 /*PART 2*/
-.Part2 .columnInfo{
+.p2 .columnInfo{
     padding: 50px;
     background: #FFF;
     border: none;
@@ -113,84 +117,97 @@ margin-top: 0px;
     padding-bottom: 48px;
     margin-top: -40px;
 }
-.pinkBackground li a{
-    color: #FFFFFF;
-}
-.pinkBackground .info3 li a:hover{
-    color: #FFF;
-}
 
 /*PART 4*/
-.Part3 img{
+.p3 img{
     width: 100%;
     height: auto;
 }
 
 /*PART 4*/
-.Part4 img{
+.p4 img{
     width: 100%;
     height: auto;
 }
 
 /*PART 5*/
-.Part5 img{
+.p5 pic3{
     width: 100%;
     height: auto;
 }
 
 /*PART 6*/
-.Part6{
+.p6{
     background: #000000;
     color: #FFFFFF;
     padding: 96px;
 }
-.Part6 img{
+
+.p6 img{
 	border:none; 
 	border-radius: 100px;
 }
-@media screen and (max-width: 800px){
+
+@media screen and (max-width: 1440px){
 	h2{
 	font-weight: 700;
 	font-size: 36px;
 	line height: 48px;
 	letter-spacing: -1px;
 	}
-	h4{
-		font-weight: 700;
-		font-size: 36px;
-		line height: 48px;
-		letter-spacing: -.08px;
-	}
+    
 	h3{
-		font-size: 36px;
-	    line-height: 48px;
-	    font-weight: 700;
+	font-size: 36px;
+	line-height: 48px;
+	font-weight: 700;
 	}
+    
+	h4{
+	font-weight: 700;
+	font-size: 36px;
+	line height: 48px;
+	letter-spacing: -.08px;
+	}
+    
 	.font1{
 	font-size: 18px;
 	}
+    
 	.font2{
-		font-size: 18px;
+	font-size: 18px;
 	}
+    
 	.font3{
-		font-size: 16px;
+	font-size: 16px;
 	}
+    
 	.font4{
-		font-size: 18px;
+	font-size: 18px;
 	}
 }
 </style>
+
         <!-- PART 1 -->
 
-        <div class="part1">
+        <div class="p1">
             <div class="container">
                 <div class="row">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="#"><img class="logo" src="JajjaLogo.png" alt="Jajja Logo"></a>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="display: flex;
+flex-direction: row;
+align-items: center;
+padding: 48px 96px;
+
+position: absolute;
+width: 1440px;
+height: 144px;
+left: 0px;
+top: 0px;
+">
+                        <a class="navbar-brand" href="#"><img class="logo" src="JajjaLogo.png"></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="collapse navbar-collapse" id="navbarNav" style="display: hide; flex-direction: row; align-items: flex-start; padding: 0px; position: absolute; flex: none; order: 1; align-self: stretch; flex-grow: 0; margin: 0px 72px;">
                               <ul class="navbar-nav NavBar1">
                                     <li class="nav-item">
                                       <a href="#">Tjänster</a>
@@ -216,7 +233,7 @@ margin-top: 0px;
                 </div>
                 <div class="row">
                     <div class="col-md-6 col-sm-12 spacing">
-                        <p class="Font1">Hallå där 👋 </p>
+                        <p class="font1">Hallå där 👋 </p>
                         <h2>Vi driver rätt trafik till din webbplats.</h2>
                         <a class="kontakt" href="#"><button class="ArticleButton">Läs mer</button></a>
                     </div>
@@ -231,46 +248,46 @@ margin-top: 0px;
 
         <!-- PART 2 -->
 
-        <div class="part2">
+        <div class="p2">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
-                        <p class="Font1">Så här jobbar vi</p>
+                        <p class="font1">Så här jobbar vi</p>
                         <h2>Med hjälp av SEO, SEM och SMA får du rätt trafik till din webbplats</h2>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-md-4 col-sm-12 text-wrap columnInfo">
-                        <img src="search-icon.svg" alt="search icon">
+                        <img src="search-icon.svg">
                         <h4>SEO</h4>
-                        <p class="Font2">Din målgrupp måste hitta din webbplats på Google om du ska få rätt resultat</p>
-                        <ul class="info3">
-                            <li><i class="fa-solid fa-chevron-right"></i><a href="#">Teknisk optimerad sajt</a></li>
-                            <li><i class="fa-solid fa-chevron-right"></i><a href="#">Innehåll på sajten</a></li>
-                            <li><i class="fa-solid fa-chevron-right"></i><a href="#">Länkkraft</a></li>
+                        <p class="font2">Din målgrupp måste hitta din webbplats på Google om du ska få rätt resultat</p>
+                        <ul class="bullet">
+                            <li><img src="fa-solid fa-chevron-right"><a href="#">Teknisk optimerad sajt</a></li>
+                            <li><img src="fa-solid fa-chevron-right"><a href="#">Innehåll på sajten</a></li>
+                            <li><img src="fa-solid fa-chevron-right"><a href="#">Länkkraft</a></li>
                         </ul>
                     </div>
 
                     <div class="col-md-4 col-sm-12 text-wrap columnInfo">
-                        <img src="bag-icon.svg" alt="search icon">
+                        <img src="bag-icon.svg">
                         <h4>SEO</h4>
-                        <p class="Font2">Lönsam och effektiv annonsering med Google Ads ger dig rätt resultat</p>
-                        <ul class="info3">
-                            <li><i class="fa-solid fa-chevron-right"></i><a href="#">Google Ads Sök</a></li>
-                            <li><i class="fa-solid fa-chevron-right"></i><a href="#">Google Ads Display</a></li>
-                            <li><i class="fa-solid fa-chevron-right"></i><a href="#">Goolge Ads</a></li>
+                        <p class="font2">Lönsam och effektiv annonsering med Google Ads ger dig rätt resultat</p>
+                        <ul class="bullet">
+                            <li><img src="fa-solid fa-chevron-right"><a href="#">Teknisk optimerad sajt</a></li>
+                            <li><img src="fa-solid fa-chevron-right"><a href="#">Innehåll på sajten</a></li>
+                            <li><img src="fa-solid fa-chevron-right"><a href="#">Länkkraft</a></li>
                         </ul>
                     </div>
 
                     <div class="col-md-4 col-sm-12 text-wrap columnInfo">
                         <img src="text-icon.svg" alt="search icon">
                         <h4>SEO</h4>
-                        <p class="Font2">Annonsera i sociala medier med rätt verktyg för att nå din målgrupp och få resultat</p>
-                        <ul class="info3">
-                            <li><i class="fa-solid fa-chevron-right"></i><a href="#">Facebook</a></li>
-                            <li><i class="fa-solid fa-chevron-right"></i><a href="#">Instagram</a></li>
-                            <li><i class="fa-solid fa-chevron-right"></i><a href="#">LinkedIn</a></li>
+                        <p class="font2">Annonsera i sociala medier med rätt verktyg för att nå din målgrupp och få resultat</p>
+                        <ul class="bullet">
+                            <li><img src="fa-solid fa-chevron-right"><a href="#">Teknisk optimerad sajt</a></li>
+                            <li><img src="fa-solid fa-chevron-right"><a href="#">Innehåll på sajten</a></li>
+                            <li><img src="fa-solid fa-chevron-right"><a href="#">Länkkraft</a></li>
                         </ul>
                     </div>
                 </div>
@@ -295,7 +312,7 @@ margin-top: 0px;
 
         <!-- PART 3 -->
 
-        <div class="part3">
+        <div class="p3">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
@@ -306,28 +323,28 @@ margin-top: 0px;
                 </div>
 
                 <div class="row">
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-2 col-sm-6">
                         <img src="Google.png" alt="Google">
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-2 col-sm-6">
                         <img src="Netflix.png" alt="Netflix">
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-2 col-sm-6">
                         <img src="Spotify.png" alt="Spotify">
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-2 col-sm-6">
                         <img src="Revolut.png" alt="Revolut">
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-2 col-sm-6">
                         <img src="Airbnb.png" alt="Airbnb">
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-2 col-sm-6">
                         <img src="Uber.png" alt="Uber">
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-2 col-sm-6">
                         <img src="HnM.png" alt="H&M">
                     </div>
-                    <div class="col-md-3 col-sm-6">
+                    <div class="col-md-2 col-sm-6">
                         <img src="Facebook.png" alt="Facebook">
                     </div>
                 </div>
@@ -337,11 +354,11 @@ margin-top: 0px;
 
         <!-- PART 4 -->
 
-        <div class="part4">
+        <div class="p4">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <img src="JAJJA_2020_014 1.png" alt="Meeting">
+                        <img src="JAJJA_2020_014 1.png">
                     </div>
                     <div class="col-md-6 col-sm-12">
                         <p class="font1">Häng med!</p>
@@ -356,7 +373,7 @@ margin-top: 0px;
 
         <!-- PART 5 -->
 
-        <div class="part5">
+        <div class="p5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
@@ -365,65 +382,80 @@ margin-top: 0px;
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <ul>
-                            <li><a href="#">Allt</a></li>
-                            <li><a href="#">Bolaget</a></li>
-                            <li><a href="#">Kunskap</a></li>
-                            <li><a href="#">Kunder</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row">
+ <div class="row" style="flex: none; order: 1; flex-grow: 0; margin: 48px 0px;">
+    <div class="col-md-1 col-sm-4">
+      <li><a href="#" style="display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 0px 24px; position: static; width: 76px; height: 48px; left: 0px; top: 0px; background: #FC0E52; border-radius: 48px; flex: none; order: 0; flex-grow: 0; margin: 0px 24px">Allt</a></li>
+    </div>
+    <div class="col-md-1 col-sm-4">
+      <li><a href="#" style="display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 0px 24px; position: static; width: 110px; height: 48px; left: 100px; top: 0px; background: #F5F5F6; border-radius: 48px; flex: none; order: 1; flex-grow: 0; margin: 0px 24px">Bolaget</a></li>
+    </div>
+        <div class="col-md-1 col-sm-4">
+      <li><a href="#" style="display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 0px 24px; position: static; width: 110px; height: 48px; left: 100px; top: 0px; background: #F5F5F6; border-radius: 48px; flex: none; order: 1; flex-grow: 0; margin: 0px 24px">Kunskap</a></li>
+    </div>
+        <div class="col-md-1 col-sm-4">
+      <li><a href="#" style="display: flex; flex-direction: row; justify-content: center; align-items: center; padding: 0px 24px; position: static; width: 110px; height: 48px; left: 100px; top: 0px; background: #F5F5F6; border-radius: 48px; flex: none; order: 1; flex-grow: 0; margin: 0px 24px">Kunder</a></li>
+    </div>
+    </div>
+                <div class="row" style="flex: none; order: 0; flex-grow: 0; margin: 32px 0px;">
                     <div class="col-md-4 col-sm-12">
-                        <figure class="figure">
-                            <img src="JAJJA_2020_016 1.png" alt="Group Meeting" class="Picture3">
-                            <p class="Font3">Bolaget</p>
-                            <h5 class="Font4">Möt vårt produktions team</h5>
-                             <p class="Font1">Donec massa libero, condimentum pretium venenatis sit amet.Integer sit amet luctus. .</p>
-                        </figure>
-                    </div>
-                    <div class="col-md-4 col-sm-12">
-                        <figure class="figure">
-                            <img src="JAJJA_2020_001 2.png" alt="Session 1" class="Picture3">
-                            <p class="font3">Bolaget</p>
-                            <h5 class="font4">Möt vårt produktions team</h5>
-                            <p class="font1">Donec massa libero, condimentum pretium venenatis sit amet.Integer sit amet luctus. .</p>
-                        </figure>
+                        <div class="card">
+						<img src="..." class="pic3">
+						<div class="card-body">
+						<p class="font3">Bolaget</p>
+						<h5 class="font4">Möt vårt produktions team</h5>
+						<p class="card-text">Donec massa libero, condimentum pretium venenatis sit amet.Integer sit amet luctus.</p>
+						</div>
+					</div>
                     </div>
                     <div class="col-md-4 col-sm-12">
-                        <figure class="figure">
-                            <img src="JAJJA_2020_002 2.png" alt="Session 2" class="Picture3">
-                            <p class="Font3">Bolaget</p>
-                            <h5 class="Font4">Möt vårt produktions team</h5>
-                            <p class="Font1">Donec massa libero, condimentum pretium venenatis sit amet.Integer sit amet luctus. .</p>
-                        </figure>
+                        <div class="card">
+						<img src="..." class="pic3">
+						<div class="card-body">
+						<p class="font3">Bolaget</p>
+						<h5 class="font4">Möt vårt produktions team</h5>
+						<p class="card-text">Donec massa libero, condimentum pretium venenatis sit amet.Integer sit amet luctus.</p>
+						</div>
+					</div>
                     </div>
                     <div class="col-md-4 col-sm-12">
-                        <figure class="figure">
-                            <img src="JAJJA_2020_016 1.png" alt="Group Meeting" class="Picture3">
-                            <p class="font3">Bolaget</p>
-                            <h5 class="font4">Möt vårt produktions team</h5>
-                             <p class="font1">Donec massa libero, condimentum pretium venenatis sit amet.Integer sit amet luctus. .</p>
-                        </figure>
+                        <div class="card">
+						<img src="..." class="pic3">
+						<div class="card-body">
+						<p class="font3">Bolaget</p>
+						<h5 class="font4">Möt vårt produktions team</h5>
+						<p class="card-text">Donec massa libero, condimentum pretium venenatis sit amet.Integer sit amet luctus.</p>
+						</div>
+					</div>
                     </div>
                     <div class="col-md-4 col-sm-12">
-                        <figure class="figure">
-                            <img src="JAJJA_2020_001 2.png" alt="Session 1" class="Picture3">
-                            <p class="font3">Bolaget</p>
-                            <h5 class="font4">Möt vårt produktions team</h5>
-                            <p class="font1">Donec massa libero, condimentum pretium venenatis sit amet.Integer sit amet luctus. .</p>
-                        </figure>
+                        <div class="card">
+						<img src="..." class="pic3">
+						<div class="card-body">
+						<p class="font3">Bolaget</p>
+						<h5 class="font4">Möt vårt produktions team</h5>
+						<p class="card-text">Donec massa libero, condimentum pretium venenatis sit amet.Integer sit amet luctus.</p>
+						</div>
+					</div>
                     </div>
                     <div class="col-md-4 col-sm-12">
-                        <figure class="figure">
-                            <img src="JAJJA_2020_002 2.png" alt="Session 2" class="Picture3">
-                            <p class="font3">Bolaget</p>
-                            <h5 class="font4">Möt vårt produktions team</h5>
-                            <p class="font1">Donec massa libero, condimentum pretium venenatis sit amet.Integer sit amet luctus. .</p>
-                        </figure>
+                        <div class="card">
+						<img src="..." class="pic3">
+						<div class="card-body">
+						<p class="font3">Bolaget</p>
+						<h5 class="font4">Möt vårt produktions team</h5>
+						<p class="card-text">Donec massa libero, condimentum pretium venenatis sit amet.Integer sit amet luctus.</p>
+						</div>
+					</div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="card">
+						<img src="..." class="pic3">
+						<div class="card-body">
+						<p class="font3">Bolaget</p>
+						<h5 class="font4">Möt vårt produktions team</h5>
+						<p class="card-text">Donec massa libero, condimentum pretium venenatis sit amet.Integer sit amet luctus.</p>
+						</div>
+						</div>
                     </div>
                 </div>
             </div>
@@ -433,7 +465,7 @@ margin-top: 0px;
 
         <!-- PART 6 -->
 
-        <div class="part6">
+        <div class="p6">
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 col-sm-12">
@@ -441,41 +473,35 @@ margin-top: 0px;
                     </div>
                     <div class="col-md-5 col-sm-12">
                         <h2>Vill du ha rätt trafik till din webbplats?</h2>
-                        <p class="Font4">Kontakta mig på gunnar.bark@jajja.com eller 0730-28 98 99 </p>
+                        <p class="font4">Kontakta mig på gunnar.bark@jajja.com eller 0730-28 98 99</p>
                     </div>
                 </div>
 
                 <div class="row about">
                     <div class="col-md-4 col-sm-5">
-                        <p class="font1">Stockholm</p>
-                        <pre class="font1">Vasagatan 28
-111 20 Stockholm</pre>
+                        <p class="font1"><b>Stockholm</b><br>Vasagatan 28<br>
+111 20 Stockholm</p>
                     </div>
 
                     <div class="col-md-4 col-sm-5">
-                        <p class="font1">Karlstad</p>
-                        <pre class="font1">Tynäsgatan 10
-652 16 Karlstad</pre>
+                        <p class="font1"><b>Karlstad</b><br>Tynäsgatan 10<br>652 16 Karlstad</p>
                     </div>
 
                     <div class="col-md-4 col-sm-5">
-                        <p class="font1">Dubai<br>Tynäsgatan 10<br>
-652 16 Karlstad</p>
+                        <p class="font1"><b>Dubai</b><br>Tynäsgatan 10<br>652 16 Karlstad</p>
                     </div>
                 </div>
 
-                <hr class="solid">
-
-                <div class="row">
+                <hr class="solid" style="border-top: 1px solid #FFF">
+                <div class="row" style="flex: none; order: 3; flex-grow: 0; margin: 64px 0">
                     <div class="col-md-12 col-sm-12">
-                        <pre class="font3">© 2021 Jajja Media Group AB
-Den här sidan innehåller cookies.</pre>
+                        <p class="font3">© 2021 Jajja Media Group AB<br>Den här sidan innehåller cookies.</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- PART 6 -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    </body>
+        
+</body>
 </html>

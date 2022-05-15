@@ -15,8 +15,7 @@
   font-family: "Roboto", sans-serif;
 }
 body, html{
-  overflow-x: hidden;
-  margin: 0;
+  overflow-x: auto;
 }
 .font16{
 font-size: 16px;
@@ -113,14 +112,17 @@ padding: 96px;
   padding: 96px;
 }
 .careers{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0px;
+  background: rgba(244, 234, 228, 0.4);
+}
+.careers img{
+  padding-right: 96px;
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
 }
 .careers .content{
   padding: 96px;
-  background: rgba(244, 234, 228, 0.4);
   gap: 48px;
 }
 .articles{
@@ -320,10 +322,10 @@ footer .line{
       <li class="nav-item mx-4"><a href="#" class="nav-link btn rounded-pill text-dark px-4 grey font18">Kunder</a></li>
       </ul>
       <select name="alternative" class="d-block d-lg-none d-md-none bg-light form-select">
-      <option value="btn">Allt</option>
-      <option value="btn">Bolaget</option>
-      <option value="btn">Kunskap</option>
-      <option value="btn">Kunder</option>
+      <option value="">Allt</option>
+      <option value="">Bolaget</option>
+      <option value="">Kunskap</option>
+      <option value="">Kunder</option>
       </select>
       <div class="row mt-4 gy-3 row-cols-1 row-cols-lg-3">
        <div class="col">
